@@ -20,7 +20,7 @@ CORBA was [removed](http://openjdk.java.net/jeps/320) from Java 10, but the pack
     <dependency>
       <groupId>org.openntf.domino</groupId>
       <artifactId>org.openntf.domino.java.api.corba.patch</artifactId>
-      <version>1.0.0-SNAPSHOT</version>
+      <version>1.0.0</version>
     </dependency>
   </dependencies>
   <build>
