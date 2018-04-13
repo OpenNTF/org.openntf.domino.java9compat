@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Domino Java API Java 10 Compatibility Patch
+Bundle-SymbolicName: org.openntf.domino.java.api.corba.patch
+Automatic-Module-Name: net.cmssite.endeavour60.test
+Bundle-Version: 6.0.4.qualifier
+Fragment-Host: com.ibm.notes.java.api
+Bundle-ClassPath: .,
+ lib/glassfish-corba-omgapi_3.2.0.b005.jar

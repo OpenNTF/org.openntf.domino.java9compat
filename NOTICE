@@ -1,0 +1,14 @@
+Domino Java 9+ Compatibility Patches
+
+Portions (c) Copyright 2018 Jesse Gallagher
+
+This product includes software contributed to
+OpenNTF Alliance (http://www.OpenNTF.org/)
+
+This product is licensed under the terms of the Apache 2.0 license.
+
+The project contains the following 3rd party code in binary form:
+
+GlassFish CORBA Omgapi
+Available from https://mvnrepository.com/artifact/com.sun.corba/glassfish-corba-omgapi/3.2.0-b005
+Licensed under the CDDL
