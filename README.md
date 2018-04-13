@@ -8,24 +8,23 @@ CORBA was [removed](http://openjdk.java.net/jeps/320) from Java 10, but the pack
 
 ```xml
 <project>
-    <!-- ... -->
-    
-    <repositories>
+	<!-- ... -->
+	<repositories>
 		<repository>
 			<id>artifactory.openntf.org</id>
 			<name>artifactory.openntf.org</name>
 			<url>https://artifactory.openntf.org/openntf</url>
 		</repository>
-    </repositories>
-    <dependencies>
-    	<dependency>
-    		<groupId>org.openntf.domino</groupId>
-    		<artifactId>org.openntf.domino.java.api.corba.patch</artifactId>
-    		<version>1.0.0-SNAPSHOT</version>
-    	</dependency>
-    </dependencies>
+	</repositories>
+	<dependencies>
+		<dependency>
+			<groupId>org.openntf.domino</groupId>
+			<artifactId>org.openntf.domino.java.api.corba.patch</artifactId>
+			<version>1.0.0-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
 	<build>
-        <plugins>
+		<plugins>
 			<plugin>
 				<groupId>org.eclipse.tycho</groupId>
 				<artifactId>target-platform-configuration</artifactId>
@@ -46,9 +45,10 @@ CORBA was [removed](http://openjdk.java.net/jeps/320) from Java 10, but the pack
 					</dependency-resolution>
 				</configuration>
 			</plugin>
-        </plugins>
-    </build>
+		</plugins>
+	</build>
 </project>
+
 ```
 
 
